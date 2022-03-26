@@ -428,6 +428,7 @@
 		img {
 			display: block;
 			width: 100%;
+			border: double black;
 		}
 
 		&.fit {
@@ -886,6 +887,7 @@ ul.technologies {
 
 			img {
 				border-radius: 100%;
+				border: double black;
 			}
 		}
 

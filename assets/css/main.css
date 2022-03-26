@@ -1480,6 +1480,7 @@ article:last-child {
 .image img {
   display: block;
   width: 100%;
+  border: double black;
 }
 
 .image.fit {
@@ -1975,6 +1976,7 @@ body > article {
 
 #top .image img {
   border-radius: 100%;
+  border: double black;
 }
 
 #top h1 {
