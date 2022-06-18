@@ -270,6 +270,7 @@ h1 {
   font-size: 3.25em;
   letter-spacing: -0.025em;
   font-weight: 300;
+  line-height: 3.5rem;
 }
 
 h1 strong {
@@ -1586,6 +1587,22 @@ article:last-child {
 }
 
 /* Image */
+.image-wrapper {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: white;
+  border: double black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .image {
   display: inline-block;
   position: relative;
@@ -1594,7 +1611,6 @@ article:last-child {
 .image img {
   display: block;
   width: 100%;
-  border: double black;
 }
 
 .image.fit {

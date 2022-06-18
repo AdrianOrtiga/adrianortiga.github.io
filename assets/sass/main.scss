@@ -291,6 +291,7 @@ h1 {
   font-size: 3.25em;
   letter-spacing: -0.025em;
   font-weight: 300;
+  line-height: 3.5rem;
 
   strong {
     font-weight: 700;
@@ -531,6 +532,15 @@ article:last-child {
 }
 
 /* Image */
+.image-wrapper {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: double black;
+  justify-content: center;
+}
+
 
 .image {
   display: inline-block;
@@ -539,7 +549,6 @@ article:last-child {
   img {
     display: block;
     width: 100%;
-    border: double black;
   }
 
   &.fit {
